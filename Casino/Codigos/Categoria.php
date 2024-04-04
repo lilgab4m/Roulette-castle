@@ -16,5 +16,10 @@
     </div>
 
     <script src="Categoria.js"></script>
+
+    <?php
+ include_once ("../Roulette-castle/rodape/rodape.php");
+ 
+    ?>
 </body>
 </html>
