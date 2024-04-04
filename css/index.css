@@ -75,6 +75,14 @@ nav a:last-child {
     text-decoration: none;
 }
 
+.container > div:first-child > a:nth-child(5) {
+    color: red;
+}
+
+.container > div:first-child > a:nth-child(5) > div {
+    color: #928E8E;
+}
+
 .container > div:nth-child(2) {
     position: fixed;
     background-color: transparent;
@@ -97,3 +105,14 @@ nav a:last-child {
 .left-body img{
     width: 60%;
 }
+
+.left-body > div {
+    display: grid;
+    grid-template: repeat(3fr);
+    justify-content: center;
+}
+
+.left-body > div img {
+    width: 20%;
+}
+
