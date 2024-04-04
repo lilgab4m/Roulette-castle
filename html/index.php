@@ -40,6 +40,9 @@
         </div>
         <div class="left-body" id="leftbody">
             <img src="../img/image 6.png" alt="">
+            <?php
+                include '../Casino/Codigos/Categoria.php';
+            ?>
         </div>
     </div>
     <script src='../js/script.js'></script>

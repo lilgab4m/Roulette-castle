@@ -14,23 +14,6 @@
 </style>
 </head>
  <body>
- 
- <style>
-    .corner-image {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100px; /* Defina a largura desejada da imagem */
-        border-radius: 50%; /* para formatar a imagem como redonda */
-    }
-</style>
-
-<!-- Imagem no canto superior esquerdo -->
-<a href="../img/logo.jpg">
-    <img class="corner-image" src="../img/logo.jpg" alt="Canto Superior Esquerdo">
-</a>
-
-
     <?php
 // Dados dos jogos (simulados em PHP)
 $games = array(
