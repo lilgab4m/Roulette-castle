@@ -1,0 +1,99 @@
+body {
+    background-color: #282828;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    flex-direction: row;
+    background-color: #383838;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 20px 0 20px 0;
+    margin-top: -95px;
+    margin-bottom: 5px;
+}
+
+nav img {
+    margin: 10px 0px 10px 30px;
+    height: 50px;
+}
+
+nav > div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+nav a {
+    font-family: "Kanit";
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+nav a:last-child {
+    height: 20px;
+    background-color: #10BB01;
+    padding: 4px 22px 7px 22px;
+    border-radius: 6px;
+    box-shadow: #0000004d 0px 4px 3px 0px;
+}
+
+.container {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container > div:first-child {
+    position: fixed;
+    height: 87%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: translateX(-100%);
+    transition: transform 0.25s;
+}
+
+.container > div:first-child > a {
+    background-color: #383838;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    gap: 10px;
+    color: #928E8E;
+    text-transform: uppercase;
+    font-family: "Questrial";
+    text-decoration: none;
+}
+
+.container > div:nth-child(2) {
+    position: fixed;
+    background-color: transparent;
+    width: 50px;
+    height: 200%;
+    margin-top: -5px;
+}
+
+.container > div:last-child {
+    /* margin-left: 20%; */
+    transition: margin .25s;
+}
+
+.left-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-body img{
+    width: 60%;
+}
