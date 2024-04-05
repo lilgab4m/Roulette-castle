@@ -4,6 +4,12 @@ body {
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+
 nav {
     display: flex;
     width: 100%;
@@ -18,8 +24,17 @@ nav {
     margin-bottom: 5px;
 }
 
+nav span {
+    font-size: 0px;
+    margin-left: 2%;
+    color: white;
+    transition: transform 0.25s;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
 nav img {
-    margin: 10px 0px 10px 30px;
     height: 50px;
 }
 
@@ -76,20 +91,12 @@ nav a:last-child {
     border-radius: 0px 7px 7px 0px;
 }
 
-.container > div:first-child > a:nth-child(5) {
+.container > div:first-child > a:nth-child(2) {
     color: red;
 }
 
-.container > div:first-child > a:nth-child(5) > div {
+.container > div:first-child > a:nth-child(2) > div {
     color: #928E8E;
-}
-
-.container > div:nth-child(2) {
-    position: fixed;
-    background-color: transparent;
-    width: 50px;
-    height: 200%;
-    margin-top: -5px;
 }
 
 .container > div:last-child {
@@ -149,7 +156,7 @@ nav a:last-child {
 }
 
 #line3 {
-    width: 75%;
+    width: 70%;
     border-bottom: 1px solid #ffffff;
     margin: 0 10% 0 5%;
 }
