@@ -107,7 +107,7 @@ nav a:last-child {
     width: 60%;
 }
 
-.container-populares > div:first-child {
+.container-games > div:first-child {
     margin-left: 7%;
     color: white;
     display: flex;
@@ -117,30 +117,44 @@ nav a:last-child {
     font-size: 30px;
 }
 
-.container-populares > div:first-child span {
+.container-games > div:first-child span {
     color: red;
     font-size: 30px;
     margin-right: 15px;
 }
 
-#line {
+#line1 {
     width: 80%;
     border-bottom: 1px solid #ffffff;
     margin: 0 10% 0 5%;
 }
 
-
-.container-populares {
+.container-games {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
 }
 
-.populares {
+.games {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 0.65fr);
     row-gap: 50px;
     justify-items: center;
 }
 
+#line2 {
+    width: 65%;
+    border-bottom: 1px solid #ffffff;
+    margin: 0 10% 0 5%;
+}
 
+#line3 {
+    width: 75%;
+    border-bottom: 1px solid #ffffff;
+    margin: 0 10% 0 5%;
+}
+
+
+.container-games:last-child {
+    margin-bottom: 50px;
+}
