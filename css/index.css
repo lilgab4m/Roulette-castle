@@ -73,6 +73,7 @@ nav a:last-child {
     text-transform: uppercase;
     font-family: "Questrial";
     text-decoration: none;
+    border-radius: 0px 7px 7px 0px;
 }
 
 .container > div:first-child > a:nth-child(5) {
@@ -106,13 +107,40 @@ nav a:last-child {
     width: 60%;
 }
 
-.left-body > div {
-    display: grid;
-    grid-template: repeat(3fr);
-    justify-content: center;
+.container-populares > div:first-child {
+    margin-left: 7%;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: "Righteous";
+    text-transform: uppercase;
+    font-size: 30px;
 }
 
-.left-body > div img {
-    width: 20%;
+.container-populares > div:first-child span {
+    color: red;
+    font-size: 30px;
+    margin-right: 15px;
 }
+
+#line {
+    width: 80%;
+    border-bottom: 1px solid #ffffff;
+    margin: 0 10% 0 5%;
+}
+
+
+.container-populares {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.populares {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50px;
+    justify-items: center;
+}
+
 
