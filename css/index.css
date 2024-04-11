@@ -10,6 +10,7 @@ html {
 }
 
 
+
 nav {
     display: flex;
     width: 100%;
@@ -147,6 +148,14 @@ nav a:last-child {
     grid-template-columns: repeat(3, 0.65fr);
     row-gap: 50px;
     justify-items: center;
+}
+
+.games img {
+    cursor: pointer;
+}
+
+#breve img {
+    cursor: not-allowed;
 }
 
 #line2 {

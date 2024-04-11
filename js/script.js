@@ -14,7 +14,7 @@ span.addEventListener('click', ()=> {
             sidebar.style.transform = 'translateX(-100%)';
             leftbody.style.marginLeft = '0';
             span.style.transform = 'rotate(0deg)';
-            document.getElementById('menu').textContent = "arrow_right_alt";
+            document.getElementById('menu').textContent = "menu";
             mode = 0;
     };
 });
