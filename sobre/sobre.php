@@ -96,6 +96,7 @@
         </p>
         Na Roulette Castle, acreditamos que os jogos podem unir pessoas e criar comunidades vibrantes. Por isso, buscamos aumentar nossa visibilidade em outros países, levando nossos jogos para novos públicos e compartilhando a paixão pelo <center>entretenimento interativo.</center>
         </p>
+
         Junte-se a nós nesta jornada emocionante e explore o mundo dos jogos online de uma maneira totalmente nova. Descubra aventuras, estratégias e diversão sem limites em cada um dos nossos títulos. Seja bem-vindo à Roulette Castle, onde a <center>magia dos jogos ganha vida!</center>
         </p>
     </div>
