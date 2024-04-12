@@ -45,6 +45,15 @@
             width: 62%; /* Define a largura do contêiner */
             margin: 0 auto; /* Centraliza o contêiner na página */
             padding: 40 px; /* Adiciona preenchimento interno ao contêiner */
+            background-color: #000;
+        }
+        body {
+        background-color: #282828;
+        color: #fff;
+        }
+        h2{
+            font-size: 18px;
+            font-weight: 400;
         }
         
     
@@ -100,7 +109,7 @@
            <p> • O Usuário usa os Serviços por sua conta e risco, sendo o único responsável por perdas incorridas como resultado do mal-uso pelo do ambiente e / ou dos serviços da Empresa.</p>
           <p> •  A Roulette castle coopera com as autoridades competentes e com terceiros para garantir o cumprimento das leis, salvaguardar a integridade e a segurança da Plataforma e de seus usuários, e impedir condutas que prejudiquem a integridade moral e a honra das pessoas físicas ou jurídicas envolvidas.</p>
           <p> •  As disposições desta Política são regidas pelas leis do Brasil. Se, por uma razão ou outra, uma ou mais disposições desta Política forem consideradas inválidas, isso não afeta as demais disposições.</p>
-           <p> • Para todas as questões o Usuário pode enviar um pedido para o endereço da empresa para a seguinte conta: giovanalupo111gmail.com
+           <p> • Para todas as questões o Usuário pode enviar um pedido para o endereço da empresa para a seguinte conta: giovanalupo111@gmail.com
 
         
     </div>
