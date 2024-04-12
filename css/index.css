@@ -11,7 +11,7 @@ html {
 
 
 
-nav {
+#nav {
     display: flex;
     width: 100%;
     position: fixed;
@@ -25,7 +25,7 @@ nav {
     margin-bottom: 5px;
 }
 
-nav span {
+#nav span {
     font-size: 0px;
     margin-left: 2%;
     color: white;
@@ -35,17 +35,17 @@ nav span {
 }
 
 
-nav img {
+#nav img {
     height: 50px;
 }
 
-nav > div {
+#nav > div {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
 
-nav a {
+#nav a {
     font-family: "Kanit";
     color: white;
     text-decoration: none;
@@ -53,7 +53,7 @@ nav a {
     margin-right: 30px;
 }
 
-nav a:last-child {
+#nav a:last-child {
     height: 20px;
     background-color: #10BB01;
     padding: 4px 22px 7px 22px;
