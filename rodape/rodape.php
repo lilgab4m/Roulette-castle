@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sua Página</title>
     <style>
         footer {
             background-color: #282828;
@@ -11,7 +10,6 @@
             padding: 5px 0;
             font-size: 14px;
             text-align: center;
-            position: fixed;
             bottom: 0;
             width: 100%;
         }
@@ -60,21 +58,17 @@
         .bottom-bar a:hover {
             text-decoration: underline;
         }
+
     </style>
 </head>
 <body>
-
 <footer>
     <div class="footer-content">
-        <div class="footer-section">
-           
-        </div>
         <div class="bottom-bar">
             <p>&copy; 2024 - Todos os direitos reservados</p>
             <p>Desenvolvido por <a href="#" target="_blank">G2</a></p>
         </div>
     </div>
 </footer>
-
 </body>
 </html>
