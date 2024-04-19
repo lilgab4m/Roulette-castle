@@ -43,8 +43,11 @@ foreach ($games as $game) {
     echo '</a>';
     echo '</div>';
 }
-?>
 
+
+
+
+?>
 
 </body>
 </html>
