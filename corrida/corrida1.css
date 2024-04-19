@@ -30,12 +30,31 @@ body{
   
   h2{
     text-align: center;
-    color: #fff;
+    color: #ffffff;
+    margin-right: 1500px;
+    font-family: "Righteous", sans-serif;
+
+    
   }
+
+  
   h3{
     color: #01BB0B;
   }
   
+  h4{
+    text-align: center;
+    color: #ffffff;
+    font-family: "Righteous", sans-serif;
+
+
+  }
+  .container11{
+    display: flex;
+  }
+  #adicionarDinheiroBtn{
+    background-color: #01BB0B;
+  }
   /* Configuração da pista e linhas */
   
   .pista {
@@ -266,7 +285,7 @@ body{
     align-items: center;
     margin: auto;
    background-color: black;
-   border: 10px solid #10BB01; /* Defina a cor e a largura da sua borda aqui */
+   border: 2px solid #10BB01; /* Defina a cor e a largura da sua borda aqui */
     border-radius: 30px;
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
@@ -332,6 +351,9 @@ background-color: #383838;
     margin-top: 10px;
     border-radius: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+   
   }
 
   
@@ -375,11 +397,13 @@ background-color: #383838;
   
   #perkBtn:hover{
     color:#ffffff;
+    
   }
   
   #botaoSecreto {
     display:contents;
     border-radius: 0px;
+    
   }
   
   /* Outros */
@@ -392,6 +416,7 @@ background-color: #383838;
     font-weight: bold;
     font-size: 1rem;
     color: rgb(28, 201, 91);
+    
   }
   
   #slogan{

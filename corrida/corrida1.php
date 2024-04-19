@@ -22,7 +22,7 @@
 
   <section class="menu">
 <div class="imagem1">
-<h1>ㅤㅤ<br><br><br>/h1>
+<h1>ㅤㅤ<br><br><br> </h1>
 
 </div>
 
@@ -32,25 +32,16 @@
       <p id="resultado"></p>
     </div>
 
-
-      <br>
-      <br>
-      <h2>SALDO: R$ <span id="saldo">100</span></h2>
-    <div class="saldo-container">
-  
-      <br>
-      <h2>SALDO: R$ <span id="saldo">100</span></h2>
-      <input type="number" id="valorAdicionar" placeholder="Valor a Adicionar"> 
-      <h2>Valor da aposta </h2>
-            <input type="number" id="valorAposta" placeholder="Valor da Aposta"><br>
-
-            <div class="depositbut">
-            <div class="butaoar">
-      <button id="adicionarDinheiroBtn" onclick="adicionarDinheiro()">Depositar 
-</div>
-
-      <button id="adicionarDinheiroBtn" oclick="adicionarDinheiro()">Depositaar</button>
-            </div>  
+      <div class="container11">
+      <h2>SALDO<span id="saldo"></span>
+      <input type="number" id="valorAdicionar" placeholder="Adicionar valor"> 
+      <button id="adicionarDinheiroBtn" onclick="adicionarDinheiro()">DEPOSITAR</button>
+      </h2>
+      <h2>APOSTA <span id="saldo"></span>
+            <input type="number" id="valorAposta" placeholder="Adicionar valor"><br>
+            <button id="adicionarDinheiroBtn" onclick="adicionarDinheiro()">DEPOSITAR</button>
+            </h2>
+      </div>
     </div>
     
     </div>
