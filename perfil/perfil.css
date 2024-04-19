@@ -1,0 +1,151 @@
+body {
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+
+nav {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    flex-direction: row;
+    background-color: #383838;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 20px 0 20px 0;
+    margin-top: -95px;
+    margin-bottom: 5px;
+}
+
+nav span {
+    font-size: 0px;
+    margin-left: 2%;
+    color: white;
+    transition: transform 0.25s;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+nav img {
+    height: 50px;
+}
+
+nav > div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+nav a {
+    font-family: "Kanit";
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+nav a:last-child {
+    height: 20px;
+    background-color: #10BB01;
+    padding: 4px 22px 7px 22px;
+    border-radius: 6px;
+    box-shadow: #0000004d 0px 4px 3px 0px;
+}
+
+.container {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-imagem {
+    position: relative;
+    width: 300px;
+    height: 200px;
+  
+}
+
+.container-perfil {
+    font-size: 20px;
+
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+h1 {
+    font-family: 'Righteous';
+    color:#10BB01;
+    margin-left: 100px;
+}
+
+p  {
+    font-family: 'Questrial';
+    margin-left: 50px;
+    
+}
+
+
+.container-info {
+    color: #000000;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.container-saldo {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.container-saldo > div:first-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Righteous';
+}
+
+.depositar {
+    border-style: solid;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: auto;
+
+
+}
+
+.sacar {
+    border-style: solid;
+    
+}
+
+.container-dinheiro {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.container-dinheiro > div {
+    width: 20%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-dinheiro p {
+    margin-left: 0;
+}
+
+.container-dinheiro > div:last-child span {
+    transform: rotate(180deg);
+}
