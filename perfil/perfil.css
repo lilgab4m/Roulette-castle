@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+h1 {
+    font-family: 'Righteous';
+    color:#10BB01;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Questrial';
+    font-size: 20px;
+}
+
+h2 {
+    font-family: 'Righteous';
+}
+
+h3 {
+    font-family: 'Questrial';
+    font-size: 20px;
+}
+
+.container-perfil {
+    margin-left: 75px;
+}
+
+.container-saldo {
+    margin-right: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-saldo > div:first-child {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Righteous';
+    gap: 10px;
+}
+
+.container-dinheiro {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.container-dinheiro > div {
+    border: 1px solid;
+    width: 20%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+span {
+    transition: transform .25s;
+}
+
+.depositar, .sacar {
+    margin-top: 20px;
+    height: 0px;
+    overflow: hidden;
+    transition: height .2s ease;
+    width: 600px;
+}
+
+.depositar > div, .sacar > div {
+    padding: 20px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.sacar {
+    margin-top: -5px;
+}
+
+.depositar input, select {
+    width: 300px;
+    height: 40px;
+    background-color: #D9D9D9;
+    border: none;
+    font-family: 'Questrial';
+    font-size: 20px;
+    color: #928E8E;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.sacar input, select {
+    width: 300px;
+    height: 40px;
+    background-color: #D9D9D9;
+    border: none;
+    font-family: 'Questrial';
+    font-size: 20px;
+    color: #928E8E;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.sacar button, .depositar button {
+    background-color: #10BB01;
+    color: #ffffff;
+    width: 100px;
+    height: 30px;
+    border: 0;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Questrial';
+}
+
+.pix {
+    height: 0px;
+    width: 700px;
+    overflow: hidden;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    transition: height .2s ease;
+    margin-bottom: 30px;
+}
+
+.pix img {
+    width: 100px;
+}
+
+.key {
+    padding: 15px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    align-items: center;
+}
+
+.pix > div {
+    display: flex;
+    gap: 5px;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+}
+
+.dados p {
+    margin: 0;
+}
+
+.atencao {
+    align-items: center;
+}
+
+.lista {
+    width: 400px;
+    font-family: 'Questrial';
+}
+
+.copiada {
+    background-color: #94ff8b69;
+    align-items: center;
+    justify-content: center;
+    color: #10BB01;
+    height: 0px;
+    overflow: hidden;
+    width: 200px;
+    margin-top: -50px;
+    border-radius: 5px;
+    transition: height .2s ease;
+}
+
+.copiada p {
+    font-size: 15px;
+}
