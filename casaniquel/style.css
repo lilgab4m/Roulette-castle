@@ -1,0 +1,162 @@
+body {
+    background:  black;
+    color: white;
+	font-family: 'Righteous', cursive;
+	text-align: center;
+
+}
+
+#corpo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1250px;
+    height: 1050px;
+    border: medium dashed black;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(2, 85, 13, 0.8)); /* Degrade verde no fundo preto */
+    padding: 20px; /* Espaçamento interno para mostrar o degrade */
+}
+
+
+
+
+
+body {
+	background-color: lightgray;
+}
+
+h1 {
+	text-align: center;
+}
+
+a {
+	color: #ffffff;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+#corpo {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1300px;
+	height: 350px;
+	background-color: rgb(0, 0, 0);
+	border: medium dashed black;
+}
+
+#corpo2 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	height: 2200px;
+	background-color: rgb(255, 255, 255);
+	border: medium dashed rgb(255, 255, 255);
+}
+
+
+
+
+#tela {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 65px;
+	height: 130px;
+	background-color: white;
+	margin: -20px auto 20px auto; /* Define uma margem superior negativa para subir a tabela */
+    background-color: rgb(0, 0, 0); /* Define o fundo da tabela como verde */
+    width: 520px;
+	border: 1px solid transparent; /* Adiciona uma borda transparente para garantir espaço para a sombra */
+    box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.5); /* Adiciona uma sombra verde */
+    border-radius: 8px; /* Adiciona bordas arredondadas de 8px */
+}
+
+
+
+#botoes {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 85px;
+	width: 460px;
+}
+
+#creditos_txt {
+	margin-left: 100px;
+	margin-top: 60px;
+	font-weight: bold;
+	float: left;
+}
+
+#creditos {
+	clear: left;
+	margin-left: 105px;
+	margin-top: 25px;
+	float: left;
+}
+
+#valor_txt {
+	margin-left: 1000px;
+	margin-top: 25px;
+	font-weight: bold;
+}
+
+#valor {
+	margin-left: 1000px;
+}
+
+#slot1 {
+	margin-top: 5px;
+	padding-left: 17px;
+	padding-right: 17px;
+	float: left;
+	border-right: thin dashed black;
+	width: 90px;
+	height: 90px;
+	vertical-align: middle;
+}
+
+#slot2 {
+	margin-top: 5px;
+	padding-left: 17px;
+	padding-right: 17px;
+	float: left;
+	border-right: thin dashed black;
+	width: 90px;
+	height: 90px;
+	vertical-align: middle;
+}
+
+#slot3 {
+	margin-top: 5px;
+	padding-left: 17px;
+	padding-right: 17px;
+	float: left;
+	border-right: thin dashed black;
+	width: 90px;
+	height: 90px;
+	vertical-align: middle;
+
+}
+
+#slot4 {
+	margin-top: 5px;
+	padding-left: 17px;
+	padding-right: 17px;
+	float: left;
+	width: 10px;
+	height: 10px;
+	vertical-align: middle;
+}
+
+#rodap� {
+	
+	text-align: center;
+}
+
+#tabela {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-weight: bold;
+	 margin: 50px auto; 
+}
