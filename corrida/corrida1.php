@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>POSI.BET</title>
   <link rel="stylesheet" href="corrida1.css" type="text/css">
-  <script type="text/javascript" src="corrida.js"></script>
+  <script type="text/javascript" src="corrida1.js"></script>
 
 </head>
 <body onload="init()">
@@ -29,11 +29,13 @@
 
     
       <br>
+      <h1>
       <p id="resultado"></p>
     </div>
+      </h1>
 
       <div class="container11">
-      <h2>SALDO<span id="saldo"></span>
+      <h2>SALDO   <span id="saldo"></span>
       <input type="number" id="valorAdicionar" placeholder="Adicionar valor"> 
       <button id="adicionarDinheiroBtn" onclick="adicionarDinheiro()">DEPOSITAR</button>
       </h2>

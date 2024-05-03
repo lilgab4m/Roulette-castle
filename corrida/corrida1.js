@@ -171,19 +171,17 @@ function reduzirOponenteMaisAFrente() {
   }
 }
 function velocidade() {
-  if (linhaChegadaAlcancada || vencedorDefinido) {
-    clearIntervaal(myInterval);
-    const vencedor = determinarVencedor();
-    if (vencedor === carroEscolhido) {
-      saldoInicial += valorAposta * 2;
-      alert(Parabéns, você ganhou! O Vencedor foi o corredor ${vencedor}.);
-    } else {
-      alert(Você perdeu. Tente novamente. O Vencedor foi o corredor ${vencedor}.);
+    if (linhaChegadaAlcancada || vencedorDefinido) {
+      clearInterval(myInterval);
+      const vencedor = determinarVencedor();
+      if (vencedor === carroEscolhido) {
+        saldoInicial += valorAposta * 2;
+        alert(`Parabéns, você ganhou! O Vencedor foi o corredor ${vencedor}.`);
+      } else {
+        alert(`Você perdeu. Tente novamente. O Vencedor foi o corredor ${vencedor}.`);
+      }
     }
-    document.getElementById("saldo").innerText = saldoInicial;
-    reiniciarCorrida();
-    return;
-  }
+  
 
   if (apostaRealizada && !linhaChegadaAlcancada && !vencedorDefinido && contador === 1) {
     document.getElementById("botaoSecreto").disabled = false;
@@ -269,11 +267,11 @@ function realizarAposta() {
     desabilitarBotaoVantagem3()
   }
 }
-
 function escolherCarro(numeroCarro) {
-  carroEscolhido = numeroCarro;
-  document.getElementById("resultado").innerText = Aposta no Carro ${numeroCarro} selecionada.;
-}
+    carroEscolhido = numeroCarro;
+    document.getElementById("resultado").innerText = `Aposta no Carro ${numeroCarro} selecionada.`;
+  }
+  
 
 function adicionarDinheiro() {
   const valorAdicionar = parseInt(document.getElementById("valorAdicionar").value);
