@@ -1,0 +1,143 @@
+#login_lion {
+    width: 20%;
+}
+
+.Login {
+    background-color: #383838;
+    border-radius: 15px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    padding: 0 2% 0 2%;
+}
+
+.Login h1 {
+    font-size: 40px;
+}
+
+.Login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Login form select {
+    height: 50px;
+    width: 83%;
+    font-size: 20px;
+    background-color: #383838;
+    border: 1px solid #928E8E;
+    border-radius: 5px;
+    font-family: 'Questrial';
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.Login form label {
+    color: #928E8E;
+    text-transform: capitalize;
+    font-family: 'Questrial';
+    align-self: flex-start;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.Login form input {
+    height: 40px;
+    width: 80%;
+    font-size: 20px;
+    background-color: #383838;
+    border: 1px solid #928E8E;
+    border-radius: 5px;
+    font-family: 'Questrial';
+    padding-left: 15px;
+}
+
+.Login form > div {
+    display: flex;
+    align-items: center;
+    margin: 0 20px 0 20px;
+    width: 80%;
+    padding-left: 10%;
+}
+
+.Login form > div input {
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.politicTxt {
+    display: flex;
+    justify-content: center;
+}
+
+.politicTxt p {
+    width: 70%;
+    font-size: 15px;
+}
+
+.Login form button {
+    background-color: #10BB01;
+    font-family: 'Questrial';
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 100%;
+    border: none;
+    height: 40px;
+    width: 25%;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.Login form button:disabled {
+    background-color: #0b7502;
+    color: #7e7e7e;
+}
+
+#loginLink {
+    color: #10BB01;
+}
+
+#loginLink:hover {
+    color: #1dff08;
+}
+
+.containerPolitica {
+    margin-top: -100px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur( 5px );
+    background-color: rgba(0, 0, 0, 0.396);
+}
+
+.containerPolitica:hover {
+    cursor: pointer;
+}
+
+.Politica {
+    overflow: scroll;
+    cursor: default;
+    overflow-x: hidden;
+    padding: 0 10px;
+    width: 55%;
+    height: 80%;
+    z-index: 4;
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: fixed;
+    /* height: 0; */
+    background-color: #303030;
+    transition: all .2s ease;
+} 
+
+.Politica p{
+    font-size: 15px;
+}

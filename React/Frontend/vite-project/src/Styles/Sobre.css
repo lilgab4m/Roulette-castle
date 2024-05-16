@@ -1,0 +1,25 @@
+.Rightbody {
+    margin-top: 95px;
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 20%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: margin .25s;
+}
+
+.Texto {
+    padding: 0 16% 0.18% 16%;
+    text-align-last: center;
+}
+
+h1 {
+    font-family: "Righteous";
+    color: #10BB01;
+}
+
+p {
+    font-size: 20px;
+    font-family: "Questrial";
+}

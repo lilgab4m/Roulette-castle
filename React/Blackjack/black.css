@@ -1,0 +1,118 @@
+/* Reset de estilos */
+* {
+  
+    align-items: center;
+    max-width: 700px;
+    
+        
+    }
+    
+    /* Estilos globais */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #282828;
+      
+    }   
+    
+    .container {
+        max-width: 600px;
+        margin: 0 auto; /* Isso centraliza o container horizontalmente */
+        text-align: center;
+        padding: 20px;
+        display: flex; /* Adiciona display flex para centralizar verticalmente */
+        flex-direction: column; /* Define a direção como coluna para centralizar verticalmente */
+        justify-content: center; /* Centraliza verticalmente */
+        
+    }
+    
+    
+    .fundoC{
+        background-color: #000000;
+    min-width: 1250px;
+    }
+    h1 {
+        color: #ffffff;
+        margin-bottom: 20px;
+        align-items: center ;
+        text-align: justify;
+    }
+    
+    .mao {
+        display: inline-block;
+        border: 1px solid #000000;
+        padding: 10px;
+        margin: 10px;
+        background-color: #000000;
+        border-radius: 5px;
+    }
+    
+    .carta {
+        display: inline-block;
+        border: 1px solid #ccc;
+        padding: 5px 10px;
+        margin-right: 5px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    
+    .oculta {
+        background-color: #999;
+        color: #fff;
+    }
+    
+    #botoes {
+        margin-top: 20px;
+        border-color: #ffffff;
+        color: #FFF;
+    }
+    
+    button {
+        padding: 10px 20px;
+        margin: 0 5px;
+        background-color: #01BB0B;
+        color: #fff;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    
+    
+    #mensagem {
+        margin-top: 20px;
+        color: rgb(255, 0, 0);
+        font-weight: bold;
+    }
+    
+    #aposta {
+        margin-top: 20px;
+    }
+    
+    #aposta input {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    #aposta-btn {
+        padding: 8px 20px;
+        background-color: #31772B;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    #aposta-btn:hover {
+        background-color: #218838;
+    }
+    
+    #saldo {
+        margin-top: 10px;
+        color: #FFF;
+    }
+    
+    
+    
+    

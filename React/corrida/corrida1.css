@@ -1,0 +1,455 @@
+body{
+    background-color: #282828   ;
+}
+
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+   
+  }
+  .imagem1{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-image: url(img/primeiraimg.jpg);
+    background-size: cover;
+    background-position: center;
+  
+
+  }
+
+  
+  /* Configuração das fontes */
+  
+  h1{
+    text-align: center;
+    font-size: 5rem;
+  }
+  
+  h2{
+    text-align: center;
+    color: #ffffff;
+    margin-right: 1500px;
+    font-family: "Righteous", sans-serif;
+
+    
+  }
+
+  
+  h3{
+    color: #01BB0B;
+  }
+  
+  h4{
+    text-align: center;
+    color: #ffffff;
+    font-family: "Righteous", sans-serif;
+
+
+  }
+  .container11{
+    display: flex;
+  }
+  #adicionarDinheiroBtn{
+    background-color: #01BB0B;
+  }
+  /* Configuração da pista e linhas */
+  
+  .pista {
+    width: 100%;
+    height: 314.5px;
+    background-color: #000000  ;
+  }
+  span{
+    color: #fff;
+  }
+  
+  
+  
+  #linha{
+    position: absolute;
+    width: 100%;
+    height: 2.5px;
+    margin-top: 65px;
+    background-color: white;
+    z-index: 1;
+  }
+  
+  #linha2{
+    position: absolute;
+    width: 100%;
+    height: 2.5px;
+    margin-top: 125px;
+    background-color: white;
+    z-index: 1;
+  }
+  
+  #linha3{
+    position: absolute;
+    width: 100%;
+    height: 2.5px;
+    margin-top: 185px;
+    background-color: white;
+    z-index: 1;
+  }
+  
+  #linha4{
+    position: absolute;
+    width: 100%;
+    height: 2.5px;
+    margin-top: 245px;
+    background-color: white;
+    z-index: 1;
+  }
+  
+  #linhainicio{
+    position: absolute;
+    z-index: 1;
+    width: 25px;
+    height: 69px;
+    margin-left: 125px;
+  }
+  
+  #linhainicio2{
+    position: absolute;
+    z-index: 1;
+    width: 25px;
+    height: 69px;
+    margin-top: 65px;
+    margin-left: 125px;
+  }
+  
+  #linhainicio3{
+    position: absolute;
+    z-index: 1;
+    width: 25px;
+    height: 69px;
+    margin-top: 125px;
+    margin-left: 125px;
+  }
+  
+  #linhainicio4{
+    position: absolute;
+    z-index: 1;
+    width: 25px;
+    height: 69px;
+    margin-top: 185px;
+    margin-left: 125px;
+  }
+  
+  #linhainicio5{
+    position: absolute;
+    z-index: 1;
+    width: 25px;
+    height: 69px;
+    margin-top: 245px;
+    margin-left: 125px;
+  }
+  
+  #linhachegada{
+    position: absolute;
+    z-index: 1;
+    width: 25px;
+    height: 69px;
+    margin-left: 1800px;
+  }
+  
+  #linhachegada2{
+    position: absolute;
+    z-index: 1;
+    width: 25px;
+    height: 69px;
+    margin-top: 65px;
+    margin-left: 1800px;
+  }
+  
+  
+  #linhachegada3{
+    position: absolute;
+    z-index: 1;
+    width: 25px;
+    height: 69px;
+    margin-top: 125px;
+    margin-left: 1800px;
+  }
+  
+  #linhachegada4{
+    position: absolute;
+    z-index: 1;
+    width: 25px;
+    height: 69px;
+    margin-top: 185px;
+    margin-left: 1800px;
+  }
+  
+  #linhachegada5{
+    position: absolute;
+    z-index: 1;
+    width: 25px;
+    height: 69px;
+    margin-top: 245px;
+    margin-left: 1800px;
+  }
+
+  /* Configuração dos carros */
+  
+  #carro1 {
+    position: absolute;
+    width: 5%;
+    height: 100px;
+    z-index: 2;
+    margin-left: 1px;
+    margin-top: 1px;
+
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+  
+  #carro2 {
+    position: absolute;
+    width: 5%;
+    height: 100px;
+    z-index: 2;
+    margin-left: 1px;
+    margin-top: 61px;
+    background-image: url("img/carro2.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    display: block;
+  }
+  
+  #carro3 {
+    position: absolute;
+    width: 5%;
+    height: 100px;
+    z-index: 2;
+    margin-left: 1px;
+    margin-top: 122px;
+    background-image: url("img/carro3.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+  
+  #carro4 {
+    position: absolute;
+    width: 5%;
+    height: 70px;
+    z-index: 2;
+    margin-left: 1px;
+    margin-top: 187px;
+    background-image: url("img/cavalo.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+  
+  #carro5 {
+    position: absolute;
+    width: 5%;
+    height: 70px;
+    z-index: 2;
+    margin-left: 1px;
+    margin-top: 254px;
+    background-image: url("img/peru.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+  
+  /* Configuração dos containers/divs */
+  
+  .container {
+    text-align: center;
+    margin-top: 50px;
+      display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 5rem;
+    align-items: center;
+  }
+  
+  h3{
+    align-items: center;
+    text-align:center   ;
+    color: #01BB0B;
+  }
+
+  table{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%
+  }
+  .carros-container{
+    align-items: center;
+    margin: auto;
+   background-color: black;
+   border: 2px solid #10BB01; /* Defina a cor e a largura da sua borda aqui */
+    border-radius: 30px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    padding: 20px;
+    font-size: 1.2rem;
+    max-width: 700px;
+        
+  }
+  
+  .saldo-container{
+    
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+   /*  background-image: url('img/fundo.png'); */
+    background-size: cover;
+    background-position: center;
+    max-width: 1000px;
+    
+  }
+  .adicionarDinheiroBtn1{
+    margin-right: 20px;
+  }
+      
+  
+  
+  
+  .perks-container {
+    margin: auto;
+background-color: #383838;
+    border-radius: 30px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 1.5rem;
+    max-width: 80%;
+    text-align: center;
+
+  }
+  
+
+  .colaboradores-container{
+    margin: auto;
+    background: linear-gradient(to right, #0d5202, #021424);
+    border-radius: 30px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    padding: 20px;  
+    max-width: 80%;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  
+  
+  /* Configuração dos botões */
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+   
+  }
+
+  
+  button:hover{
+    background-color: gray;
+  
+  }
+  
+  #realizarApostaBtn{
+   
+    background-color: #01BB0B;
+    font-size: 1.6rem;
+    width: 250px;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    margin-left: 735px;
+    
+
+
+
+  }
+  
+
+ 
+  
+  #perkBtn{
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    width: 300x;
+    height: 65px;
+    border-radius: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    border: solid white;
+  
+  }
+  
+  #perkBtn:hover{
+    color:#ffffff;
+    
+  }
+  
+  #botaoSecreto {
+    display:contents;
+    border-radius: 0px;
+    
+  }
+  
+  /* Outros */
+  
+  .menu{
+    margin: 50px;
+  }
+  
+  #resultado{
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(28, 201, 91);
+    
+  }
+  
+  #slogan{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .colaboradores-grid{
+    padding-top: 50px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .header-grid{
+    margin: auto; 
+    text-align: center;
+    max-width: 30%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px
+  
+  }
+  
+  #logo{
+    padding-top: 10px;
+    width: 75px;
+  }
+  
+  video{
+    padding-top: 30px;
+    margin-left: 10%;
+    width: 75%;
+  }

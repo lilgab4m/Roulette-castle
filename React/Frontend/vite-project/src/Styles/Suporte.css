@@ -1,0 +1,31 @@
+    #SuporteImg {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .suporte > div {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        top: -400px;
+        margin-bottom: -200px;
+    }
+
+    .suporte > div h2 {
+        text-transform: uppercase;
+        font-size: 60px;
+        margin-bottom: 5px;
+        font-family: 'Righteous';
+    }
+
+    .suporte > div > form input {
+        background-color: white;
+        height: 60px;
+        font-size: 30px;
+        border: none;
+        width: 100%;
+        color: black;
+        font-family: 'Questrial';
+        border-radius: 15px;
+    }

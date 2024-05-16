@@ -1,0 +1,38 @@
+.Footer {
+    border-top: 1px solid #928E8E;
+    width: 100%;
+}
+
+.Footer > div:first-child {
+    display: flex; 
+    flex-direction: row;
+    font-size: 3px;
+    justify-content: space-around;
+}
+
+.Footer > div:first-child > div {
+    width: 20%;
+}
+
+.Footer h1 {
+    font-size: 20px;
+}
+
+.Footer p {
+    font-size: 15px; 
+    color: #928E8E;
+}
+
+.Footer > div:last-child {
+    height: 100px;
+    display: flex;
+    justify-content: center;    
+    flex-direction: column;
+    background-color: #565454;
+    margin-bottom: -15px;
+}
+
+.Footer > div:last-child p{
+    margin: 0;
+    color: black;
+}

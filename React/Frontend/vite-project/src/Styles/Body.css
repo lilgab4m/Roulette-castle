@@ -1,0 +1,74 @@
+.Rightbody {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 20%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: margin .25s;
+}
+
+.Rightbody img{
+    width: 60%;
+}
+
+.container-games > div:first-child {
+    margin-left: 7%;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: "Righteous";
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.container-games > div:first-child span {
+    color: red;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+#line1 {
+    width: 80%;
+    border-bottom: 1px solid #ffffff;
+    margin: 0 10% 0 5%;
+}
+
+.container-games {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.games {
+    display: grid;
+    grid-template-columns: repeat(3, 0.65fr);
+    row-gap: 50px;
+    justify-items: center;
+}
+
+.games img {
+    cursor: pointer;
+}
+
+#breve img {
+    cursor: not-allowed;
+}
+
+#line2 {
+    width: 65%;
+    border-bottom: 1px solid #ffffff;
+    margin: 0 10% 0 5%;
+}
+
+#line3 {
+    width: 70%;
+    border-bottom: 1px solid #ffffff;
+    margin: 0 10% 0 5%;
+}
+
+.container-games:last-child {
+    margin-bottom: 50px;
+}
